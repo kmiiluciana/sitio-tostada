@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.brand-logo img{
+
+    width: 138px;
+    height: 25px;
+    margin-top: 4px;
+}
+
+.subscribe-button{
+    position: absolute;
+    right: 2%;
+    top: 35%;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #DAB200;
+}
+
+nav{
+    background-color:#fafafa;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 7px 8px -5px #d1cdd1 inset;
+}
+
+.site-logo {
+
+    width: 150px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-logo img{
+    width: 118px;
+    height: 48px;
+}
+
+.hamburguer{
+    width: 40px;
+    height: 40px;
+    background-color: #fafafa;
+    position:absolute;
+    right: 88%;
+    top: 17%;
+    padding: 6px;
+
+    border: 1px solid #d2d2d2;
+}
+
+.rayita{
+
+    display: block;
+    width: 21px;
+    height: 2px;
+    background-color: black;
+    margin: 5px auto;   
+}
+
+#tostada{
+    width: 100%;
+}
+
+.news{
+    background-color: slateblue;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-text{
+    font-size: larger;
+    color: whitesmoke;
+}
+
+.container-titular{
+    background-color: #fafafa;
+    padding: 10px;
+    padding-bottom: 65px;
+}
+
+.title{
+    margin-bottom: 15px;
+    font-size: xx-large;
+}
+
+.subtitle{
+    margin-bottom: 10px;
+}
+
+.date{
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.dotted-container{
+    border: 2px dotted lightgrey;
+    border-left: none;
+    border-right: none;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.bluetext{
+    color: steelblue;
+    font-weight: 500;
+}
+
+.Author{
+    color: steelblue;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.category-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.category{
+    color: black;
+    background-color: white;
+    min-width: 47%;
+    max-width: 60%;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+    font-size: 12px;
+}
+
+.paragraphstyle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    margin: 10px 10px 20px 10px;
+    line-height: 29px;
+    text-align: left;
+}
+
+.ingredients-title{
+    margin: 10px;
+    height: 40px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ingredients{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;    
+}
+
+.recipe-container{
+    background-color: white;
+    margin: 10px 10px 20px 10px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    box-shadow: 0 3px 4px -1px lightgrey;
+}
+
+.ingredient-list:nth-child(odd){
+    background-color:#fafafa;
+}
+.ingredient-list{
+    padding: 5px;
+}
+.homelink {
+    display: inline-block;
+    background-image: url(../img/cocinillas-logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.linkcontainer1{
+    display: flex;
+    height: 125px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    
+}
+
+.footer1style{
+    text-decoration: none;
+    color: lightslategrey;
+    font-size: 14px;
+
+}
+.homepage{
+    display: block;
+    background-image: url(../img/brand.logo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+
+}
+
+.linkcontainer2{
+    margin: 30px 12px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    padding-top: 20px;
+    border-top: dotted 1px lightslategrey;
+}
+
+.linkcontainer3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: 30px 0px;
+}
+
+.footerbox{
+    padding: 10px 5px 7px 6px;
+}
+
+footer{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(57,59,73);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#footer-text{
+    font-size: 12px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: lightgrey;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: lightgrey;
+    padding-right:5px;
+    font-size: 13px;
+}
